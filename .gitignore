@@ -1,0 +1,61 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+.phpstorm.meta.php
+/public/hot
+/public/storage
+/storage/debugbar
+/storage/logs
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/*.key
+
+# Environment and IDE-specific
+.env.*
+*.env.*
+.idea
+*.sublime-project
+*.sublime-workspace
+.vscode
+nbproject
+
+# Composer
+composer.lock
+
+# Node.js
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Logs and temporary files
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+*.bak
+*.sql
+*.sqlite
+.DS_Store
+Thumbs.db
+
+# MongoDB
+/mongodb.log
+/mongodb.lock
+
+# Docker
+.dockerignore
+docker-compose.yml
+
+# Ignore debug-related files
+*.phpunit.result.cache
